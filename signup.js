@@ -16,7 +16,7 @@
         } else { throw new Error('bad'); }
       })
       .catch(function () {
-        window.location.href = 'mailto:hello@grantradar.org?subject=Start%20my%20free%20digest&body=' + encodeURIComponent(em);
+        window.location.href = 'mailto:hello@grantbrief.org?subject=Start%20my%20free%20digest&body=' + encodeURIComponent(em);
       });
   });
 })();
