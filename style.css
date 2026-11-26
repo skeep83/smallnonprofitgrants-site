@@ -132,9 +132,9 @@ footer .cols{display:flex;gap:48px;flex-wrap:wrap;margin-bottom:20px}
 }
 
 /* — v2: hero mock, live row, sources, CTA band, reveal, mobile bar — */
-.live{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--ink-soft);margin:-6px 0 18px}
-.live b{color:hsl(var(--primary));font-size:16px}
-.pulse{width:9px;height:9px;border-radius:50%;background:hsl(142 70% 45%);position:relative;flex:none}
+.live{display:flex;align-items:baseline;gap:9px;font-size:14px;color:var(--ink-soft);margin:-6px 0 18px}
+.live b{color:hsl(var(--primary));font-size:15px;font-variant-numeric:tabular-nums}
+.pulse{width:8px;height:8px;border-radius:50%;background:hsl(142 70% 45%);position:relative;flex:none;top:-1px}
 .pulse::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid hsl(142 70% 45% / .5);animation:ping 1.8s ease-out infinite}
 @keyframes ping{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.6);opacity:0}}
 
