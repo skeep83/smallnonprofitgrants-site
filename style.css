@@ -27,11 +27,12 @@
 html{scroll-behavior:smooth}
 body{background:var(--neo-bg);color:var(--ink);font-family:var(--sans);
   font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;position:relative;overflow-x:hidden}
-body::before,body::after{content:"";position:fixed;border-radius:50%;pointer-events:none;z-index:0;
+body::before,body::after{content:"";position:fixed;border-radius:50%;pointer-events:none;z-index:-1;
   background:hsl(var(--primary) / .10);filter:blur(90px)}
 body::before{width:26rem;height:26rem;top:-8rem;left:-8rem}
 body::after{width:30rem;height:30rem;bottom:-10rem;right:-6rem}
-header.site,.wrap{position:relative;z-index:1}
+header.site{position:relative;z-index:1}
+.wrap{position:relative}
 .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
 .narrow{max-width:680px}
 a{color:hsl(var(--primary))}
