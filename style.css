@@ -124,6 +124,7 @@ footer .cols{display:flex;gap:48px;flex-wrap:wrap;margin-bottom:20px}
   .radar{margin:0;max-width:260px}
   .steps,.stats{grid-template-columns:1fr}
   nav a{margin-left:14px}
+  nav a:not(.btn){display:none}
   table.cmp{display:block;overflow-x:auto}
   .mobile-cta{display:flex}
   body{padding-bottom:72px}
