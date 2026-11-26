@@ -24,15 +24,16 @@
 <body>
 <header class="site"><div class="wrap">
 <a class="logo" href="/">GrantBrief</a>
-<nav><a href="/#how">How it works</a><a href="/#vs">Compare</a><a href="/#pricing">Price</a><a href="/#faq">Questions</a><a href="/about.html">About</a></nav>
+<nav><a href="/#how">How it works</a><a href="/#vs">Compare</a><a href="/#pricing">Price</a><a href="/#faq">Questions</a><a href="/about.html">About</a><a class="btn btn-sm" href="#signup">Get the sample</a></nav>
 </div></header>
 
 <div class="wrap"><div class="hero">
 <div>
 <div class="eyebrow">Grant matches for small nonprofits</div>
 <h1>Grants small nonprofits can realistically win.</h1>
+<div class="live"><span class="pulse"></span><b>1,419</b>&nbsp;open opportunities tracked today, across 4 regions</div>
 <p class="lede">Big databases love showing you a $2M Horizon grant you cannot touch. We filter the other way: open calls that organizations under $500K budget can realistically win this quarter — with the deadline and the amount on every line.</p>
-<form class="cta" id="signup" action="https://api.grantbrief.org/subscribe" method="post"><input type="email" name="email" placeholder="you@yourorg.org" required aria-label="Your email"><input type="hidden" name="src" value="smallnonprofitgrants.org"><button class="btn" type="submit">Send me the free sample issue</button></form>
+<form class="cta js-signup" id="signup" action="https://api.grantbrief.org/subscribe" method="post"><input type="email" name="email" placeholder="you@yourorg.org" required aria-label="Your email"><input type="hidden" name="src" value="smallnonprofitgrants.org"><button class="btn" type="submit">Send me the free sample issue</button></form>
 <div class="fine">No card for the sample. No database login. Cancel by replying STOP to any email.</div>
 <div class="trust">
 <div class="t-item"><div class="well"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>One email a week. Unsubscribe that works.</div>
@@ -40,35 +41,43 @@
 <div class="t-item"><div class="well"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 00-9.3-5M6 9v5l-2 3h13"/><path d="M3 3l18 18"/><path d="M10.3 20a2 2 0 003.4 0"/></svg></div>No spam, no upsell, no "special offer".</div>
 </div>
 </div>
-<svg class="radar" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A radar picking out a few signals among many">
-<circle cx="100" cy="100" r="92" stroke="#241ae6" stroke-opacity=".25"/>
-<circle cx="100" cy="100" r="64" stroke="#241ae6" stroke-opacity=".25"/>
-<circle cx="100" cy="100" r="36" stroke="#241ae6" stroke-opacity=".25"/>
-<line x1="100" y1="100" x2="176" y2="52" stroke="#241ae6" stroke-width="2"/>
-<circle cx="148" cy="66" r="5" fill="#0da2ee"/>
-<circle cx="82" cy="52" r="5" fill="#241ae6"/>
-<circle cx="58" cy="128" r="5" fill="#241ae6"/>
-<circle cx="126" cy="146" r="5" fill="#0da2ee"/>
-<circle cx="100" cy="100" r="3" fill="#241ae6"/>
-</svg>
+<div class="mailmock">
+<div class="mm-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+<span class="mm-sub">GrantBrief Weekly · 5 matches for “Riverside Animal Rescue”</span></div>
+<div class="mm-item"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M3 7l9 6 9-6M3 7v10h18V7z"/></svg></div>
+<div><div class="mm-h">USDA Community Food Projects</div>
+<div class="mm-m"><b>$75,000</b> · deadline 04 Mar · eligibility ✓ · note: pitch a feeding network, not a garden</div></div></div>
+<div class="mm-item"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div>
+<div><div class="mm-h">State Humane Society — Small Grants</div>
+<div class="mm-m"><b>$5K–25K</b> · deadline 28 Feb · you were waitlisted in 2025 — worth a resubmit</div></div></div>
+<div class="mm-item"><div class="mm-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+<div><div class="mm-h">Petco Love Grants — Regional</div>
+<div class="mm-m"><b>$15,000</b> · deadline 15 Mar · 20-minute application</div></div></div>
+<div class="float-chip fc1">✓ Eligibility checked</div>
+<div class="float-chip fc2">⏳ 41 days to deadline</div>
+</div>
 </div></div>
 <div class="wrap"><div class="stats">
-<div class="stat"><div class="num">1,419</div><div class="lbl">open opportunities tracked right now, across four regions</div></div>
-<div class="stat"><div class="num">3–10</div><div class="lbl">real matches per reader, per week</div></div>
-<div class="stat"><div class="num">$29</div><div class="lbl">per month. The sample issue costs nothing.</div></div>
+<div class="stat reveal"><div class="num">1,419</div><div class="lbl">open opportunities tracked right now, across four regions</div></div>
+<div class="stat reveal"><div class="num">3–10</div><div class="lbl">real matches per reader, per week</div></div>
+<div class="stat reveal"><div class="num">$29</div><div class="lbl">per month. The sample issue costs nothing.</div></div>
 </div></div>
+<div class="wrap sources">
+<span class="src-lbl">We read these every day:</span>
+<span class="chip">grants.gov</span><span class="chip">EU Funding &amp; Tenders</span><span class="chip">UK Government</span><span class="chip">National Lottery</span><span class="chip">GrantConnect AU</span><span class="chip">40+ foundation feeds</span>
+</div>
 <section id="how"><div class="wrap">
 <h2>How it works</h2>
 <div class="steps">
-<div class="step"><div class="well"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg></div><h3>Tell us who you are</h3>
+<div class="step reveal"><div class="well"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg></div><h3>Tell us who you are</h3>
 <p>Five questions, two minutes: mission, country, budget, what you spend on, whether you have ever held a grant. This is the profile we match against.</p></div>
-<div class="step"><div class="well"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div><h3>We read everything, daily</h3>
+<div class="step reveal"><div class="well"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div><h3>We read everything, daily</h3>
 <p>grants.gov and state portals, the EU Funding &amp; Tenders portal, UK government and National Lottery funding, GrantConnect in Australia, foundation feeds. Thousands of postings a month. Most are noise for you — that is the point.</p></div>
-<div class="step"><div class="well"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><h3>You get the shortlist</h3>
+<div class="step reveal"><div class="well"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><h3>You get the shortlist</h3>
 <p>Every Tuesday: the 3–10 that genuinely fit, each with deadline, amount, and a plain-language note on what that funder actually wants to see.</p></div>
 </div>
 <h3 style="margin-top:40px">What an issue looks like</h3>
-<div class="digest">
+<div class="digest reveal">
 <div class="from">From: GrantBrief Weekly &lt;digest@grantbrief.org&gt; · Tuesday 07:02 · <b>5 matches for “Riverside Animal Rescue”</b></div>
 <div class="grant"><div class="t">USDA Community Food Projects — Competitive Grant</div>
 <div class="m">Deadline 04 Mar · <span class="amt">up to $75,000</span> · open to nonprofits under $1M revenue. Note: they funded two community fridges last cycle; a feeding-network pitch fits better than a garden one.</div></div>
@@ -99,7 +108,7 @@
 </div></section>
 <section id="pricing"><div class="wrap">
 <h2>One plan. $29 a month.</h2>
-<div class="price-card">
+<div class="price-card reveal">
 <div class="p">$29<small> / month</small></div>
 <ul>
 <li>Daily scan of every tracked source</li>
@@ -111,6 +120,12 @@
 <a class="btn" href="mailto:hello@grantbrief.org?subject=Send%20me%20the%20sample%20issue">Send me the sample issue</a>
 <p class="fine" style="margin-top:12px">Annual $290 (two months free). Nonprofits under $100K budget: write us, we work it out.</p>
 </div>
+</div></section>
+<section class="cta-band"><div class="wrap narrow" style="text-align:center">
+<h2>Stop finding out about grants after the deadline.</h2>
+<p>The free sample issue takes one minute to judge. If it is not useful, it costs nothing.</p>
+<form class="cta js-signup" id="signup2" action="https://api.grantbrief.org/subscribe" method="post"><input type="email" name="email" placeholder="you@yourorg.org" required aria-label="Your email"><input type="hidden" name="src" value="smallnonprofitgrants.org"><button class="btn" type="submit">Send me the free sample issue</button></form>
+<div class="fine">No card. No database login. Reply STOP whenever.</div>
 </div></section>
 <section id="faq"><div class="wrap narrow faq">
 <h2>Questions people actually ask</h2>
@@ -132,4 +147,5 @@
 <div>© 2026 GrantBrief. Written by two people in Europe and one very persistent robot.</div>
 </div></footer>
 <script src="/signup.js"></script>
+<script src="/site.js"></script>
 </body></html>

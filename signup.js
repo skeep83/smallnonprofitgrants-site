@@ -1,6 +1,5 @@
 (function () {
-  var f = document.getElementById('signup');
-  if (!f) return;
+  document.querySelectorAll('form.js-signup').forEach(function (f) {
   f.addEventListener('submit', function (e) {
     e.preventDefault();
     var em = f.querySelector('input[name=email]').value;
@@ -18,5 +17,6 @@
       .catch(function () {
         window.location.href = 'mailto:hello@grantbrief.org?subject=Start%20my%20free%20digest&body=' + encodeURIComponent(em);
       });
+  });
   });
 })();
