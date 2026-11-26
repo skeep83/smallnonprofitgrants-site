@@ -181,8 +181,9 @@ footer .cols{display:flex;gap:48px;flex-wrap:wrap;margin-bottom:20px}
 /* — v3: brand imagery — */
 .shot-wrap{margin:0;position:relative}
 .shot{width:100%;height:auto;display:block;border-radius:24px;mix-blend-mode:multiply}
-.hero .shot-wrap{transform:rotate(-1.2deg)}
+.hero .shot{transform:rotate(-1.2deg)}
 .cta-shot{width:min(280px,60vw);margin:0 auto 18px}
 .price-wrap{display:grid;grid-template-columns:440px 1fr;gap:40px;align-items:center}
-.price-shot{transform:rotate(1.6deg);max-width:420px}
+.price-shot{max-width:420px}
+.price-shot .shot{transform:rotate(1.6deg)}
 @media(max-width:860px){.price-wrap{grid-template-columns:1fr}.price-shot{max-width:300px;margin:0 auto}}
