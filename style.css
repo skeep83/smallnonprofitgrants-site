@@ -68,6 +68,13 @@ section{padding:64px 0;border-bottom:1px solid var(--line)}
 .versus .us li::before{content:"✓";color:var(--green)}
 
 .price-card{border:1px solid var(--ink);border-radius:12px;padding:34px;max-width:440px;background:#fff;margin-top:24px}
+table.cmp{width:100%;border-collapse:collapse;margin-top:20px;background:#fff;font-size:15px}
+table.cmp th,table.cmp td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}
+table.cmp th{font-family:var(--sans);font-size:14px;background:var(--paper)}
+table.cmp th.us-col{color:var(--green)}
+table.cmp td.us-col{background:var(--green-soft)}
+.notfor{margin-top:26px;border-left:3px solid var(--gold);padding:6px 0 6px 18px}
+.notfor p{color:var(--ink);font-size:15.5px;margin:0}
 .price-card .p{font-family:var(--serif);font-size:44px}
 .price-card .p small{font-size:16px;color:var(--ink-soft)}
 .price-card ul{list-style:none;margin:16px 0 22px}
