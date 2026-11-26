@@ -12,7 +12,7 @@
       .then(function (r) { return r.json(); })
       .then(function (d) {
         if (d.ok) {
-          f.innerHTML = '<p style="color:#1f4d3a;font-weight:600;margin:0">You are on the list. Your first digest arrives Tuesday morning.</p>';
+          f.innerHTML = '<p style="color:hsl(258 80% 45%);font-weight:600;margin:0">You are on the list. Your first digest arrives Tuesday morning.</p>';
         } else { throw new Error('bad'); }
       })
       .catch(function () {
